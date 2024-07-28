@@ -1,0 +1,377 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    background-color: ghostwhite;
+}
+
+/*este es mi header*/
+.ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+
+    justify-content: center;
+    text-align: center
+}
+
+a {
+    position: relative;
+    bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+.menu {
+    position: relative;
+    float: right;
+    display: flex;
+    bottom: 90px;
+
+}
+
+.anuncio1{
+
+    background-color: #d4e761;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 900;
+
+
+}
+
+.p-anuncio {
+    position: relative;
+    justify-content: center;
+    font-size: 20px;
+    bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    text-align: center;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px
+}
+
+/*Section 1*/
+.grid-container {
+    grid-gap: 40px;
+
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+
+
+
+}
+
+
+
+
+.first-item {
+    grid-row: 1/3;
+
+}
+
+.second-item {
+    grid-row: 1/3;
+}
+
+.quienes-somos {
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+.p-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+}
+
+
+
+/*section 2*/
+
+
+
+.h-2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.product-d {
+
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+
+
+.img-1 {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 1px;
+    width: 400px;
+
+}
+
+.img-2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 1px;
+    width: 400px;
+}
+
+.img-3 {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 400px;
+}
+
+.img-4 {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 400px;
+
+}
+
+
+/*Este es el footer*/
+footer {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+
+    margin-bottom: 40px;
+
+
+}
+
+.icon-logo {
+    width: 40px;
+    margin-right: 100%;
+}
+
+.data-fiscal {
+
+    position: relative;
+    width: 50px;
+    margin-left: 70%;
+
+
+
+}
+
+.wpp-icon {
+    width: 50px;
+    position: relative;
+    float: right;
+    text-align: end;
+
+}
+
+.p-footer {
+    text-align: center;
+}
+
+.redes-1 {
+    margin-top: px;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bolder;
+
+}
+
+.redes-sociales {
+    text-align: center;
+}
+
+.logo-insta {
+    width: 30px;
+}
+
+.logo-face {
+    width: 30px;
+
+}
+
+.logo-x {
+    width: 30px;
+}
+
+.logo-yt {
+    width: 30px;
+}
+
+.copy-right {
+    width: 25px;
+    position: relative;
+    top: 25px;
+    align-items: center;
+    left: 915px;
+
+
+}
+
+.copy {
+
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
+}
+
+
+
+/* CAMPERAS */
+
+
+
+
+
+
+
+/* Sección 1 */
+.grid-container-2 {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-item-one1 {
+
+    grid-column: 2/3;
+}
+
+.grid-item-two1 {
+
+    grid-column: 3/4;
+}
+
+
+
+.campera {
+    text-align: center;
+    margin-top: 150px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.p-camperas {
+    text-align: center;
+    background-color: darkgrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.campera-1 {
+    position: relative;
+    left: 40px;
+}
+
+/* Sección 2 */
+.grid-container-a {
+    display: grid;
+    margin: 0;
+    padding: 0%;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    margin-left: 80px;
+    margin-top: 40px;
+    grid-gap: 100px;
+
+
+
+
+}
+
+.grid-item1 {
+
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.grid-item2 {
+
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.grid-item3 {
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.grid-item4 {
+    grid-row: 1/3;
+
+    text-align: center;
+}
+
+.grid-item5 {
+
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.grid-item6 {
+
+    grid-row: 1/3;
+    text-align: center;
+}
+
+.imgcampera-1 {
+    justify-content: center;
+
+
+
+}
+
+.imgcampera-2 {
+    text-align: center;
+}
+
+
+
+/*resonsive*/
+
+
+
+.boton-producto {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    background-color: #d4e761;
+width: 150px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+border: none;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+   
