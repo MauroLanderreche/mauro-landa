@@ -375,3 +375,13 @@ border: none;
 }
 
    
+/*Boostrap*/
+.text-danger{
+    color: orange !important;
+}
+.c-item{
+    height: 800px;
+}
+.c-img{
+    height: 800px;
+}
