@@ -317,6 +317,7 @@ footer {
 
 
 
+    
 
 
 
@@ -371,6 +372,16 @@ footer {
     left: 40px;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Sección 2 */
 .grid-container-a {
     display: grid;
@@ -417,11 +428,7 @@ footer {
     text-align: center;
 }
 
-.grid-item6 {
 
-    grid-row: 1/3;
-    text-align: center;
-}
 
 .imgcampera-1 {
     justify-content: center;
@@ -455,7 +462,12 @@ border: none;
     
 }
 
-   
+
+
+
+
+
+
 /*Boostrap*/
 .text-danger{
     color: orange !important;
@@ -467,11 +479,43 @@ border: none;
     height: 800px;
 }
  
+/*Aplicamos CSS a Jeans*/
+.jeans{
 
 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: 700;
+background-color: red;
+border-radius: 5px;
+padding: 5px;
 
 
+}
+.h1{
+    text-align: center;
+}
 
+.parrafo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+}
+.jean-principal{
+text-align: center;
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+
+ }
+.jean-1{
+    width: 240px;
+
+}
+.jean-2{
+    width: 230px;
+}
 
 
 
