@@ -10,78 +10,75 @@
 </head>
 
 <body>
-    <!--Este es mi encabezado-->
-    <header>
-        <div class="logo-tienda"> <img src="IMG/icons8-logo-32.png" alt="Mi tienda"> </div>
+  <!--Este es mi encabezado-->
+  <header>
+    <div class="logo-tienda"> <img src="IMG/icons8-logo-30.png" alt="Mi tienda" width="60px"> </div>
 
 
-        <!--Esta es mi zona navegable-->
-        <nav=>
-            <ul class="ul">
-                <li> <a href="../index.html">Inicio</a></li>
-                <li><a href="camperas.html">Camperas</a></li>
-                <li><a href="jeans.html">Jeans</a></li>
-                <li> <a href="gorras.html">Gorras</a></li>
-                <li> <a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="menu">
-                <img src="IMG/icons8-menú-30.png" alt="menu">
+    <!--Esta es mi zona navegable-->
+    <nav=>
+        <ul class="ul">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="camperas.html">Camperas</a></li>
+            <li><a href="jeans.html">Jeans</a></li>
+            <li><a href="gorras.html">Gorras</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+        <div class="menu">
+            <img src="IMG/icons8-menú-ham.png" alt="menu">
 
 
-                </nav>
+            
 
-            </div>
-
-
-            <div class="anuncio">
-                <p class="p-anuncio"> ENVIO GRATIS A PARTIR DE <span class="anuncio1">$50.000</span> </p>
-            </div>
->
+        </div>
 
 
-
+        <div class="anuncio">
+            <p class="p-anuncio"> ENVIO GRATIS A PARTIR DE <span class="anuncio1">$50.000</span> </p>
+        </div>
 
 
 
 
-    </header>
 
+
+
+</header>
 
 
     <main>
         <!--seccion 1-->
-        <section>
-            <h1>¿Donde nos encontramos?</h1>
-            <!--Enlace externo-->
-            <div class="mapa"></div><iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84569.58403807375!2d-57.5637620672318!3d-38.02760332357923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1719788441989!5m2!1ses-419!2sar"
-                width="500" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <section class="grid-contacto">
+            <div class="grid-cont"><h1 class="h-1">¿Donde nos encontramos?</h1>
+                <!--Enlace externo-->
+                <div class="mapa"></div><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84569.58403807375!2d-57.5637620672318!3d-38.02760332357923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d94d19d34209%3A0xdd9670804bfed126!2sMar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1719788441989!5m2!1ses-419!2sar"
+                    width="500" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+           
+            <div class="grid-cont2"><h2 class="contactate"> Contactate con nosotros</h2>
+                <!--lista desordenada-->
+                <ul class="u-l">
+                    <li class="li1"> <span class="span"> Pedidos:</span>    (54+) 348328423</li>
+                    <li class="li2"><span class="span">  Reclamos:</span>    (54+) 675206432</li>
+                    <li class="li3"> <span class="span"> Mail:</span>          Mitienda@gmail.com</li>
+                
+                </ul>
+                   <!--Formulario-->
+               <form action ="" class="form">
+               <p>Nombre:</p>
+        <input type="text" class="field"> <br/>
 
-            <h2> Contactate con nosotros</h2>
-            <!--lista desordenada-->
-            <ul>
-                <li>Pedidos: (54+) 348328423</li>
-                <li>Reclamos: (54+) 675206432</li>
-                <li>Mail: Mitienda2024@gmail.com</li>
+        <p>Correo electronico:</p>
+        <input type="text" class="field"> <br/>
 
-            </ul>
-               <!--Formulario-->
-            <h3>Haznos una pregunta</h3>
-            <label for="">Nombre y Apellido</label>
-            <input type="text" name="Nombre" id="Nombre" placeholder=" Mauro Landerreche">
-            <label for="">Mail</label>
-            <input type="Mail" name="" id="Mail" placeholder="Mauro@gmail.com">
-            <label for="">Contraseña</label>
-            <input type="password" name="Contraseña" id="Contraseña">
-            <p>Comentarios</p>
-            <textarea name="" id="" cols="30" rows="10">
-
-
-    </textarea>
-            <input type="submit" value="Enviar">
-
-
+        <p>Mensaje:</p>
+        <input type="text" class="field-m"> <br/><p class="center-content">
+            <input type="button" class="enviar" value="Enviar Datos">
+        </p>
+    </form>
         </section>
     </main>
 
@@ -89,21 +86,23 @@
 <footer> 
     <!--Pie de pagina-->
 
-    <img src="IMG/icons8-logo-32.png" alt="Mi tienda" class="icon-logo">
+    <img src="IMG/icons8-logo-30.png" alt="Mi tienda" class="icon-logo" width="60px">
     <img src="IMG/icons8-whatsapp-50.png" alt="whatsapp" class="wpp-icon">
     <img src="IMG/data_fiscal.png" alt="data fiscal" class="data-fiscal">
     <div class="redes-1"> <p>Seguinos en las redes</p></div>
     <div class="redes-sociales">
-        <img src="IMG/icons8-logo-de-instagram-50.png" alt="logo instagram" class="logo-insta">
-        <img src="IMG/icons8-facebook-nuevo-50.png" alt="logo facebook" class="logo-face">
-        <img src="IMG/icons8-twitterx-50.png" alt="logo x" class="logo-x">
-        <img src="IMG/icons8-youtube-play-50.png" alt="logo yt" class="logo-yt">
+        <img src="IMG/instagram.png" alt="logo instagram" class="logo-insta">
+        <img src="IMG/facebook.png" alt="logo facebook" class="logo-face">
+        <img src="IMG/twitterx.png" alt="logo x" class="logo-x">
+        <img src="IMG/youtube.png" alt="logo yt" class="logo-yt">
 
 
 
 
     </div>
-    <img src="IMG/icons8-derechos-de-autor-50.png" alt="copyright" class="copy-right">
-   <p class="copy">@Maurolanderreche</p>
+    <div> <img src="IMG/copyright.png" alt="copyright" class="copy-right" >
+ 
+</div>
+<p class="copy">@Maurolanderreche</p>
 </footer>
 </html>

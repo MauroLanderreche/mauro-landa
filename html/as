@@ -1,0 +1,87 @@
+// Pantallas pequeñas (móviles)
+@media (max-width: 600px) {
+  .grid-container-2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    .grid-item-one1 {
+      grid-column: 1;
+      .campera {
+        margin-top: 100px;
+      }
+    }
+
+    .grid-item-two1 {
+      grid-column: 1;
+      .campera-1 {
+        left: 0;
+      }
+    }
+  }
+
+  .grid-container-a {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    margin-left: 0;
+    margin-top: 20px;
+    grid-gap: 0.5rem;
+
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5 {
+      grid-row: auto;
+    }
+
+    .boton-producto {
+      width: 100%;
+      padding: $padding-base;
+    }
+  }
+}
+
+// Pantallas medianas (tabletas)
+@media (min-width: 601px) and (max-width: 900px) {
+  .grid-container-2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+    .grid-item-one1 {
+      grid-column: 1 / 2;
+    }
+
+    .grid-item-two1 {
+      grid-column: 2 / 3;
+    }
+  }
+
+  .grid-container-a {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    margin-left: 0;
+    margin-top: 30px;
+    grid-gap: 1rem;
+
+    .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5 {
+      grid-row: auto;
+    }
+
+    .boton-producto {
+      width: auto;
+      padding: $padding-base;
+    }
+  }
+}
+
+// Pantallas grandes (escritorio)
+@media (min-width: 901px) {
+  .grid-container-2 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .grid-container-a {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 150px);
+  }
+}
+
+
+
