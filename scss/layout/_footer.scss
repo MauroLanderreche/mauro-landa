@@ -1,0 +1,85 @@
+$colorrojo: red;
+/*Este es el footer*/
+footer {
+margin-top: 100px;    
+    border-top: solid white 1px;
+border-bottom: solid white 1px;
+
+    margin-bottom: 10px;
+
+    .icon-logo {
+        width: 60px;
+        margin-right: 100%;
+    }
+
+    .data-fiscal {
+
+        position: relative;
+        width: 50px;
+        margin-left: 70%;
+    }
+
+    .wpp-icon {
+        width: 50px;
+        position: relative;
+        float: right;
+        text-align: end;
+    }
+
+    .redes-1 {
+
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-weight: 900;
+        color: $colorrojo;
+
+    }
+
+
+    .redes-sociales {
+        text-align: center;
+
+        .logo-insta {
+            width: 30px;
+        }
+
+        .logo-face {
+            width: 30px;
+
+        }
+
+        .logo-x {
+            width: 30px;
+        }
+
+        .logo-yt {
+            width: 30px;
+        }
+
+
+
+    }
+
+    .copy-right {
+        width: 25px;
+        position: relative;
+        top: 25px;
+        align-items: center;
+        left: 915px;
+
+
+    }
+
+    .copy {
+
+        text-align: center;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+
+    }
+
+
+}

@@ -1,0 +1,156 @@
+$colorrojo: red;
+/*Aplicamos SCSS a Jeans*/
+.h1 {
+    text-align: center;
+
+    .jeans {
+
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        background-color: $colorrojo;
+        border-radius: 5px;
+        padding: 5px;
+
+
+    }
+}
+
+.parrafo {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.jean-principal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    .jean-1 {
+        width: 240px;
+      
+
+    }
+
+    .jean-2 {
+        width: 230px;
+       
+    }
+
+}
+
+.h2 {
+    background-color: $colorrojo;
+    display: inline;
+  padding: 5px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 20px;
+padding-right: 20px;
+font-size: 40px;
+
+}
+    
+
+/*section 2*/
+.grid-container-jean {
+
+    display: grid;
+    margin: 0;
+    padding: 0%;
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    margin-left: 80px;
+    margin-top: 40px;
+    grid-gap: 120px;
+
+    .grid-item-a {
+        grid-row: 1/3;
+        text-align: center;
+
+        .jean-a {
+            text-align: center;
+            width: 270px;
+            &:hover{  transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+    }
+
+    .grid-item-b {
+        grid-row: 1/3;
+        text-align: center;
+
+        .jean-b {
+            text-align: center;
+            width: 270px;
+            &:hover{  transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+    }
+
+    .grid-item-c {
+        grid-row: 1/3;
+        text-align: center;
+
+        .jean-c {
+            text-align: center;
+            width: 270px;
+            &:hover{  transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+    }
+
+    .grid-item-d {
+        grid-row: 1/3;
+        text-align: center;
+
+        .jean-d {
+            text-align: center;
+            width: 270px;
+            &:hover{  transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+    }
+
+    .grid-item-e {
+        grid-row: 1/3;
+        text-align: center;
+
+        .jean-e {
+            text-align: center;
+            width: 270px;
+            &:hover{  transform: scale(1.2);
+                transition: 2s;
+            }
+        }
+    }
+
+    .boton-producto {
+        position: relative;
+        top: 20px;
+        text-align: center;
+        background-color: #d4e761;
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+}
